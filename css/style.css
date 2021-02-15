@@ -1,0 +1,30 @@
+body
+{
+background-color: aquamarine;
+width: 960px;
+}
+
+p
+{
+    padding: 30px;
+    background-color: bisque;
+    text-align: left;
+
+}
+.p2
+{
+    font-size: larger;
+    text-align: center;
+    background-color: blueviolet;
+}
+header nav ol li:nth-child(odd)
+{
+background-color: rgb(212, 81, 107);
+border-radius: 50px;
+}
+
+header nav ol li:nth-child(even)
+{
+background-color: rgb(77, 218, 77);
+border-radius: 50px;
+}
