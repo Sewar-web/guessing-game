@@ -3,7 +3,13 @@ body
 background-color: aquamarine;
 width: 960px;
 }
+img{
+    display: block;
+    margin: auto;
+    width: 600px;
+    height: 200px;
 
+}
 p
 {
     padding: 30px;

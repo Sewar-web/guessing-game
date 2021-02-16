@@ -1,3 +1,4 @@
+
 'use strict';
 
 
@@ -11,7 +12,7 @@ if (question.toLowerCase() === 'yes') {
     // console.log("yes i'm a good person i swear hhh");
 
 }
-else if (question == 'no') {
+else if (question.toLowerCase() == 'no') {
     alert("why you said that :( ");
 }
 
@@ -22,7 +23,7 @@ if (questionFav.toLowerCase() === 'yes') {
     alert('I love animals because they are innocent and beautiful creatures');
     // console.log("yes i'm love animals so much");
 }
-else if (questionFav == 'no') {
+else if (questionFav.toLowerCase == 'no') {
     alert("why you say no  OHA ");
 }
 
@@ -34,7 +35,7 @@ if (questionAni.toLowerCase() == 'yes') {
     // console.log("yes i have my favourite  type of animals");
 
 }
-else if (questionAni == 'no') {
+else if (questionAni.toLowerCase() == 'no') {
     alert("why you say no  OHA ");
 }
 
@@ -45,7 +46,7 @@ if (questionMusic.toLowerCase() == 'yes') {
     // console.log("no");
 
 }
-else if (questionMusic == 'no') {
+else if (questionMusic.toLowerCase() == 'no') {
     alert("now you caught me hhh  ");
 }
 
@@ -56,7 +57,7 @@ if (questionCard.toLowerCase() == 'yes') {
     /* console.log("no i haven't ");*/
 
 }
-else if (questionCard == 'no') {
+else if (questionCard.toLowerCase() == 'no') {
     alert("yeah its true ");
 }
 
