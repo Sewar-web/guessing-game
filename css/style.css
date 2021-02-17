@@ -6,13 +6,13 @@ width: 960px;
 img{
     display: block;
     margin: auto;
-    width: 600px;
-    height: 200px;
+    width: 700px;
+    height: 500px;
 
 }
 p
 {
-    padding: 30px;
+    padding: 70px;
     background-color: bisque;
     text-align: left;
 
@@ -22,6 +22,10 @@ p
     font-size: larger;
     text-align: center;
     background-color: blueviolet;
+    padding :100px;
+    border-radius:100px;
+    display :block;
+    margin: auto;
 }
 header nav ol li:nth-child(odd)
 {

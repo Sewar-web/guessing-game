@@ -14,7 +14,7 @@ if (question.toLowerCase() === 'yes') {
   // console.log("yes i'm a good person i swear hhh");
 
 }
-else if (question.toLowerCase() === 'no') {
+else if (question.toLowerCase()==='no') {
   alert('why you said that :( ');
 }
 
@@ -92,6 +92,7 @@ for(let counter=0; counter<4 ; counter++)
 }
 if(check1 === false)
 {alert('you have exhausted all attempts The correct answer is 7');}
+
 let favCountry=['jordan-palestine' , 'syria' , 'china' , 'india' , 'usa' , 'romania' , 'itly' , 'saudi arabia' , 'egypt', 'sudan' , 'australia' , 'morocco' , 'algeria'];
 
 let check2 = false;
@@ -120,5 +121,6 @@ if(check2=== false)
 }
 
 alert('your sourci is' + a + '/7');
+
 
 
