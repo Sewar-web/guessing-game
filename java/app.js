@@ -12,7 +12,7 @@ return userName;
 }
 yourName();
 
-const question0= function(goodPerson){
+const question0= function(){
 let question = prompt( 'do you think im a good person' );
 if (question.toLowerCase() === 'yes') {
   alert('Really, I am a good person because I have never harmed anyone before');
@@ -21,7 +21,7 @@ console.log('yes i am a good person i swear hhh');
 
 }
 else if (question.toLowerCase() === 'no') {
-  alert('why you said that :( ');
+  alert('why you said that') ;
 
 // console.log(question);
 return question;
@@ -31,7 +31,7 @@ question0();
 
 
 
-const question1= function (favAnimal){
+const question1= function (){
 let questionFav = prompt('do you think i love animals');
 if (questionFav.toLowerCase() === 'yes') {
   alert('I love animals because they are innocent and beautiful creatures');
@@ -48,7 +48,7 @@ return questionFav;
 }}
 question1(); 
 
-const question2= function(cat){
+const question2= function(){
 let questionAni = prompt('Do you have a cat');
 if (questionAni.toLowerCase() === 'yes') {
   alert('yes i have my favourite  type of animals');
@@ -62,7 +62,7 @@ return questionAni;
 }}
 question2 ('yes');
 
-const question3= function(music){
+const question3= function(){
 let questionMusic = prompt('Do you think i like a music');
 if (questionMusic.toLowerCase() === 'yes') {
   alert('really i dont like a music');
@@ -79,7 +79,7 @@ return questionMusic;
 question3();
 
 
-const question4= function(card){
+const question4= function(){
 let questionCard = prompt('Do you have a credit card');
 if (questionCard.toLowerCase() === 'yes') {
   alert('Unfortunately, I dont have a credit card');
@@ -93,7 +93,7 @@ else if (questionCard.toLowerCase() === 'no') {
 }}
 question4();
 
-const question5= function(Guess){
+const question5= function(){
 let check1 = false;
 alert(' now you will enter inside guessing number game ');
 alert('Watch out : You just have 4  attempts ');
@@ -122,7 +122,7 @@ return num;
 }}
 question5();
 
-const question6= function (country) {
+const question6= function () {
 let favCountry=['jordan-palestine' , 'syria' , 'china' , 'india' , 'usa' , 'romania' , 'italy' , 'saudi arabia' , 'egypt', 'sudan' , 'australia' , 'morocco' , 'algeria'];
 
 let check2 = false;
