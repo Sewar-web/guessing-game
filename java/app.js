@@ -1,4 +1,3 @@
-
 'use strict';
 let a= 0;
 
@@ -15,14 +14,13 @@ yourName();
 const question0= function(){
   let question = prompt( 'do you think im a good person' );
   if (question.toLowerCase() === 'yes') {
-    alert('Really, I am a good person because I have never harmed anyone before');
+    alert('Really, I am a good person because I have never harmed anyone before😺');
     a++;
-    console.log('yes i am a good person i swear hhh');
+    console.log('yes i am a good person i swear hhh ');
 
   }
   else if (question.toLowerCase()==='no') {
     alert('why you said that :( ');
-    // console.log(question);
     return question;
   }};
 
@@ -31,44 +29,41 @@ question0();
 
 
 const question1= function (){
-  let questionFav = prompt('do you think i love animals');
+  let questionFav = prompt('do you think i love animals🧐');
   if (questionFav.toLowerCase() === 'yes') {
-    alert('I love animals because they are innocent and beautiful creatures');
-    console.log('yes iam love animals so much');
+    alert('I love animals because they are innocent and beautiful creatures🥰🥰');
+    console.log('yes iam love animals so much🥰');
     a++;
   }
   else if (questionFav.toLowerCase() === 'no') {
-    alert('why you say no  OHA ');
+    alert('why you say no  OHA 🤨🤨');
 
-    // console.log(question1);
     return questionFav;
   }};
 question1();
 const question2= function(){
-  let questionAni = prompt('Do you have a cat');
+  let questionAni = prompt('Do you have a cat 😻');
   if (questionAni.toLowerCase() === 'yes') {
-    alert('yes i have my favourite  type of animals');
-    console.log('yes i have my favourite  type of animals');
+    alert('yes i have my favourite  type of animals😻');
+    console.log('😻😻yes i have my favourite  type of animals 😻😻');
     a++;
   }
   else if (questionAni.toLowerCase() === 'no') {
-    alert(' no i have a cat ');
-    // console.log(question2);
+    alert(' no 😭,,,,, really i have a cat ');
     return questionAni;
   }};
 question2 ();
 
 const question3= function(){
-  let questionMusic = prompt('Do you think i like a music');
+  let questionMusic = prompt('Do you think i like a music 😇');
   if (questionMusic.toLowerCase() === 'yes') {
-    alert('really i dont like a music');
+    alert('really i dont like a music 😉');
 
   }
   else if (questionMusic.toLowerCase() === 'no') {
-    alert(' now you caught me hhh  ');
-    console.log('no');
+    alert(' now you caught me hhh 🥳 ');
     a++;
-    console.log('yes');
+    console.log('really i dont like a music 😉');
     return questionMusic;
   }};
 
@@ -76,13 +71,13 @@ question3();
 
 
 const question4= function(){
-  let questionCard = prompt('Do you have a credit card');
+  let questionCard = prompt('Do you have a credit card 😎');
   if (questionCard.toLowerCase() === 'yes') {
-    alert('Unfortunately, I dont have a credit card');
+    alert('Unfortunately, I dont have a credit card 🥺');
   }
   else if (questionCard.toLowerCase() === 'no') {
     alert('yeah its true ');
-    /* console.log("no i haven't ");*/
+    console.log('I really dont have a credit card 😂 ');
     a++;
     console.log(questionCard);
     return questionCard;
@@ -97,7 +92,6 @@ const question5= function(){
   let num=prompt('Guess the number');
   for(let counter=0; counter<4 ; counter++)
   {
-    num=prompt('Guess the number');
     if(num === '7')
     {alert('bravoo you guessed it on the first try');
       a++;
@@ -126,7 +120,7 @@ const question6= function () {
   for (let count=0 ; count<6 ; count++ )
   {
     let countryName = prompt('now you will try guessed my favorite country ---Whatch out : You have 6  attempts just');
-    for (let check=0 ; check < favCountry.length; check++) 
+    for (let check=0 ; check < favCountry.length; check++)
     {
       if(countryName === favCountry[0])
       {
@@ -152,6 +146,4 @@ const question6= function () {
 question6();
 
 alert('your sourci is' + a + '/7');
-
-
 
