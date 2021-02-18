@@ -4,8 +4,9 @@ let a= 0;
 
 function yourName () {
   let userName = prompt('insert your name');
-  alert('HI' + ' ' + userName);
+  alert('HI' + ' ' + userName + '  ' +'iam glad to meet you ❤️');
   console.log (userName);
+  console.log('sewar');
   return userName;
 
 }
@@ -21,6 +22,7 @@ const question0= function(){
   }
   else if (question.toLowerCase()==='no') {
     alert('why you said that :( ');
+    console.log('why you said that 🤨');
     return question;
   }};
 
@@ -37,7 +39,7 @@ const question1= function (){
   }
   else if (questionFav.toLowerCase() === 'no') {
     alert('why you say no  OHA 🤨🤨');
-
+    console.log('why you said that 😭😭');
     return questionFav;
   }};
 question1();
@@ -50,6 +52,7 @@ const question2= function(){
   }
   else if (questionAni.toLowerCase() === 'no') {
     alert(' no 😭,,,,, really i have a cat ');
+    console.log('in actully i have a cat  🤨');
     return questionAni;
   }};
 question2 ();
@@ -74,6 +77,7 @@ const question4= function(){
   let questionCard = prompt('Do you have a credit card 😎');
   if (questionCard.toLowerCase() === 'yes') {
     alert('Unfortunately, I dont have a credit card 🥺');
+    console.log('no i havent 😂');
   }
   else if (questionCard.toLowerCase() === 'no') {
     alert('yeah its true ');
@@ -109,6 +113,7 @@ const question5= function(){
   }
   if(check1 === false)
   {alert('you have exhausted all attempts The correct answer is 7');}
+  console.log('my favorit number is 7');
   return num;
 };
 question5();
@@ -124,7 +129,7 @@ const question6= function () {
     {
       if(countryName === favCountry[0])
       {
-        alert('bravoo the correct answer is jordan-palestine ');
+        alert('bravoo the correct answer is jordan-palestine ❤️❤️❤️');
         a++;
         check2 = true;
         break;
@@ -138,12 +143,12 @@ const question6= function () {
   }
   if(check2=== false)
   {
-    alert('you have exhausted all attempts The correct answer is jordan-palestine ');
-
+    alert('you have exhausted all attempts The correct answer is jordan-palestine ❤️❤️❤️ ');
+    console.log('my favorit country is jordan & palestine ❤️❤️❤️ ');
     return favCountry;
   }};
 
 question6();
 
-alert('your sourci is' + a + '/7');
+alert('your score is' + a + '/7');
 
