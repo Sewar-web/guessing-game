@@ -24,10 +24,8 @@ p
     font-size: larger;
     text-align: center;
     background-color: blueviolet;
-    /*padding :30px;*/
     border-radius:100px;
-    /*display :block;
-    margin: auto;*/
+    
 }
 header nav ol li:nth-child(odd)
 {
