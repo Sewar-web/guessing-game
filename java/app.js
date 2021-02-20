@@ -93,22 +93,20 @@ const question5= function(){
   let check1 = false;
   alert(' now you will enter inside guessing number game ');
   alert('Watch out : You just have 4  attempts ');
-  let num=prompt('Guess the number');
+  let num;
   for(let counter=0; counter<4 ; counter++)
   {
+    num=prompt('Guess the number');
     if(num === '7')
-    {alert('bravoo you guessed it on the first try');
+    {alert('bravoo you guessed it ');
       a++;
       check1=true;
       break;
     }
-
     else if(num > 7)
-
-    {alert('too high');}
-
+    {alert('too high  , try again');}
     else
-    { alert('too low');}
+    { alert('too low  , try again');}
 
   }
   if(check1 === false)
@@ -120,31 +118,32 @@ question5();
 
 const question6= function () {
   let favCountry=['jordan-palestine' , 'syria' , 'china' , 'india' , 'usa' , 'romania' , 'italy' , 'saudi arabia' , 'egypt', 'sudan' , 'australia' , 'morocco' , 'algeria'];
-
   let check2 = false;
   for (let count=0 ; count<6 ; count++ )
   {
-    let countryName = prompt('now you will try guessed my favorite country ---Whatch out : You have 6  attempts just');
-    for (let check=0 ; check < favCountry.length; check++) 
+    let inter =prompt('now you will try guessed my favorite country ---Whatch out : You have just 6  attempts ');
+    for (let check=0 ; check < favCountry.length ; check++)
     {
-      if(countryName === favCountry[0])
+      if( favCountry[check]===inter)
       {
-        alert('bravoo the correct answer is jordan-palestine ❤️❤️❤️');
+        alert('bravoo the correct answer ');
         a++;
         check2 = true;
         break;
       }
 
     }
+
     if(check2===true){
       break;
     }
-    alert('try again :( ');
+    else
+      alert('try again');
   }
   if(check2=== false)
   {
-    alert('you have exhausted all attempts The correct answer is jordan-palestine ❤️❤️❤️ ');
-    console.log('my favorit country is jordan & palestine ❤️❤️❤️ ');
+    alert('you have exhausted all attempts The correct answer is jordan-palestine ❤️ ');
+    console.log('my favorit country is jordan & palestine ❤️❤️ ');
     return favCountry;
   }};
 
